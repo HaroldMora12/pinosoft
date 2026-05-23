@@ -1,0 +1,69 @@
+/* Login */
+.login-view {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(135deg, #1e3a5f 0%, #2d6a9f 45%, #4a90c4 100%);
+    box-sizing: border-box;
+    padding: 1.5rem;
+}
+
+.login-card {
+    width: 100%;
+    max-width: 420px;
+    background: var(--lumo-base-color);
+    border-radius: var(--lumo-border-radius-l);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.18);
+    padding: 2.5rem 2rem;
+    box-sizing: border-box;
+}
+
+.login-title {
+    margin: 0;
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--lumo-primary-text-color);
+    text-align: center;
+    letter-spacing: -0.02em;
+}
+
+.login-subtitle {
+    margin: 0.25rem 0 1rem;
+    text-align: center;
+    color: var(--lumo-secondary-text-color);
+    font-size: var(--lumo-font-size-s);
+}
+
+.login-tabs {
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+
+.login-form vaadin-text-field,
+.login-form vaadin-password-field {
+    --vaadin-input-field-border-radius: var(--lumo-border-radius-m);
+}
+
+.login-form vaadin-button[theme~="primary"] {
+    margin-top: 0.5rem;
+    font-weight: 600;
+    min-height: 2.75rem;
+}
+
+/* Inicio */
+.inicio-view {
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+.inicio-titulo {
+    margin: 0;
+    color: var(--lumo-header-text-color);
+}
+
+.inicio-telefono {
+    color: var(--lumo-secondary-text-color);
+    margin: 0.5rem 0 1rem;
+}
